@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "project-group-13",
+    "dev": "vite",
     "build": "vite build --base=/project-group-13",
-    "preview": "project-group-13"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^4.0.0",
