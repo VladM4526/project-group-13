@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Epilogue', sans-serif;
+  src: url('/static/Epilogue-Light.ttf')  format('truetype'),
+        url('/static/Epilogue-Regular.ttf')  format('truetype'),
+        url('/static/Epilogue-SemiBold.ttf')  format('truetype')
+}
