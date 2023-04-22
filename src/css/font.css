@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Epilogue, sans-serif;
+  font-family: "Epilogue", sans-serif;
   src:  url(/static/Epilogue-Black.ttf) format('truetype'),
         url(/static/Epilogue-Bold.ttf) format('truetype'),
         url(/static/Epilogue-ExtraBold.ttf) format('truetype'),
