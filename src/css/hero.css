@@ -1,3 +1,15 @@
+
+
+
+/* ================== MEDIA ==================== */
+
+.container {
+  /* to styles css */
+  max-width: 1176px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
 .hero {
   background-color: var(--bg-section-hero-and-header);
   color: var(--any-white-color-and-bg);
@@ -6,30 +18,31 @@
 
 .hero-wrapper {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  column-gap: 10px;
   row-gap: 43px;
 }
 
 .hero-title {
-  /* font-family: ; */
   font-weight: 600;
   font-size: 60px;
   line-height: 1;
-  margin-right: 44px;
+  /* margin-right: 144px; */
   max-width: 750px;
 }
 
 .hero-text {
-  /* font-family: ; */
   font-weight: 300;
   font-size: 14px;
   line-height: 1.28;
   max-width: 282px;
+  letter-spacing: -0.02em;
 }
 
 .slider {
   max-width: 436px;
-  margin-right: 64px;
+  /* margin-right: 64px; */
   align-self: flex-end;
 }
 
@@ -62,7 +75,6 @@
 }
 
 .slider-pagination {
-font-family: 'Epilogue';
 font-weight: 400;
 font-size: 14px;
 line-height: 1.29;
@@ -84,3 +96,5 @@ position: relative;
   height: 1px;
   background-color: var(--any-white-color-and-bg);
 }
+
+
