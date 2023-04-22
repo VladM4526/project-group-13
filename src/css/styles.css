@@ -5,14 +5,6 @@
   |============================
 */
 
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  font-family: 'Epilogue', sans-serif;
-}
-
 @import url('/css/variables.css');
 @import url('/css/font.css');
 @import url('/css/modern-normalize.css');
@@ -25,3 +17,11 @@
 @import url('/css/new-watches.css');
 @import url('/css/sale.css');
 @import url('/css/footer.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Epilogue', sans-serif;
+}
