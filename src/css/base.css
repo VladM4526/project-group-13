@@ -1,0 +1,50 @@
+body {
+  font-family: var(--font-family);
+  color:var(--bg-slider-titles-and-mobile-menu);
+  background-color: var(--any-white-color-and-bg);
+}
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* tablet screen */
+@media screen and (min-width: 768px) {
+ .section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+}
+
+/* desktop screen */
+@media screen and (min-width: 1158px) {
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.container {
+  /* mobile screen */
+  width: 100%;
+  max-width: 335px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* tablet screen */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+/* desktop screen */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 52px;
+  }
+}
