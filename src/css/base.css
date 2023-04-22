@@ -28,7 +28,6 @@ body {
 .container {
   /* mobile screen */
   width: 100%;
-  max-width: 335px;
   padding: 0 20px;
   margin: 0 auto;
 }
