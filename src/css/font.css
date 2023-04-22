@@ -1,6 +1,12 @@
 @font-face {
   font-family: 'Epilogue', sans-serif;
-  src: url('/static/Epilogue-Light.ttf')  format('truetype'),
+  src:  url('/static/Epilogue-Black.ttf') format('truetype'),
+        url('/static/Epilogue-Bold.ttf') format('truetype'),
+        url('/static/Epilogue-ExtraBold.ttf') format('truetype'),
+        url('/static/Epilogue-ExtraLight.ttf') format('truetype'),
+        url('/static/Epilogue-Light.ttf')  format('truetype'),
+        url('/static/Epilogue-Medium.ttf')  format('truetype'),
         url('/static/Epilogue-Regular.ttf')  format('truetype'),
-        url('/static/Epilogue-SemiBold.ttf')  format('truetype')
+        url('/static/Epilogue-SemiBold.ttf')  format('truetype'),
+        url('/static/Epilogue-Thin.ttf')  format('truetype')
 }
