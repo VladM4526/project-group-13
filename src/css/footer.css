@@ -3,18 +3,26 @@
    
 }
 .container {
+    padding-top: 40px;
+}
+.footer-container {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
     
-    padding: 40px 20px 20px 20px;
 }
 .footer-logo {
     
 }
 .logo {
+   
+}
+.footer-adres {
     
 }
-.footer-adres {}
 
 .footer-adress-list {
+    
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -28,7 +36,7 @@
     flex-wrap: wrap;
     width: 136px;
     height: 18px;
-    font-family: 'Epilogue';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -43,7 +51,7 @@
     width: 141px;
     height: 54px;
     
-    font-family: 'Epilogue';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -54,11 +62,7 @@
 
 .footer-name {
    
-    position: absolute;
-    top: 40px;
-        right: 20px;
-        margin: 0;
-        
+    
     
     
 }
@@ -72,7 +76,7 @@
 }
 .name-text {
     
-    font-family: 'Epilogue';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -100,8 +104,8 @@
 }
 
 .footer-icon {
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     fill: #FFFFFF;
     padding: 8px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -111,17 +115,18 @@
 
 }
 
-.footer-copy {}
+.footer-copy {
+    padding-bottom: 20px;
+}
 
 .copy-text {
     margin-bottom: 14px;
     display: flex;
     flex-wrap: wrap;
-    width: 239px;
+    
     height: 14px;
-    left: 20px;
-    top: 372px;
-    font-family: 'Epilogue';
+    
+   
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -132,26 +137,27 @@
 }
 .footer-policy {
     display: flex;
+    
 }
 
 .policy {
    margin-right: 14px;
-    width: 76px;
+    
     height: 14px;
-    font-family: 'Epilogue';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    text-align: right;
+    
     letter-spacing: -0.02em;
     color: #C6CDD1;
 }
 .policy-text {
     
-    width: 95px;
+   
     height: 14px;
-    font-family: 'Epilogue';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -159,4 +165,59 @@
     text-align: right;
     letter-spacing: -0.02em;
     color: #C6CDD1;
+}
+
+/* ---------media--768--------------- */
+@media screen and (min-width: 768px) {
+.container {
+    padding-top: 80px;
+}
+
+.footer-container {
+   
+    }
+.footer-logo {
+   
+    
+}
+
+.footer-nav {
+  
+}
+.footer-nav-list {
+    gap: 16px;
+}
+.footer-name-link {
+    margin-bottom: 18px;
+}
+.footer-copy {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-name {
+    
+}
+.copy-text {
+    margin-bottom: 0;
+}
+
+}
+/* -------1280----------- */
+
+@media screen and (min-width: 1280px) { 
+.container {
+    padding-top: 104px;
+        padding-left: 132px;
+        padding-right: 132px;
+}
+.footer-container {
+   margin-bottom: 174px;
+}
+
+.copy-text {
+    margin-bottom: 0;
+}
+.footer-copy {
+    padding-bottom: 32px;
+}
 }
