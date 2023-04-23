@@ -1,0 +1,71 @@
+.modal {
+    max-width: 335px;
+    background-color: var(--any-white-color-and-bg);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.input-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+    .img-watch-card {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.watch-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--bg-section-hero-and-header);
+    margin-bottom: 4px;
+}
+.watch-price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+}
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+.modal-label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+}
+.modal-input {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+    border: 1px solid rgba(20, 20, 20, 0.5);
+    border-radius: 8px;
+    height: 42px;
+    padding: 12px 16px;
+}
+.modal-textarea {
+    resize: none;
+    height: 170px;
+    border: 1px solid rgba(20, 20, 20, 0.5);
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29px;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+}

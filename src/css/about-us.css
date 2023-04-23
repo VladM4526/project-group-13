@@ -1,4 +1,6 @@
-
+.about-us {
+    background-color: var(--section-primary-bg-color);
+}
 .about-title {
     font-style: normal;
     font-weight: 600;
