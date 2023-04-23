@@ -1,5 +1,5 @@
 .footer {
-    background : #1E2827;
+    background-color : var(--bg-slider-titles-and-mobile-menu);
    
 }
 .container {
@@ -36,13 +36,13 @@
     flex-wrap: wrap;
     width: 136px;
     height: 18px;
-    
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--any-white-color-and-bg);
 }
 
 .address-mup {
@@ -51,13 +51,13 @@
     width: 141px;
     height: 54px;
     
-    
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.02em;
-     color: #FFFFFF;
+    color: var(--any-white-color-and-bg);
 }
 
 .footer-name {
@@ -76,14 +76,14 @@
 }
 .name-text {
     
-    
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--any-white-color-and-bg);
 
 }
 
@@ -123,10 +123,8 @@
     margin-bottom: 14px;
     display: flex;
     flex-wrap: wrap;
-    
+    font-family: var(--font-family);
     height: 14px;
-    
-   
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -141,15 +139,13 @@
 }
 
 .policy {
-   margin-right: 14px;
-    
+    margin-right: 14px;
+    font-family: var(--font-family);
     height: 14px;
-    
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    
     letter-spacing: -0.02em;
     color: #C6CDD1;
 }
@@ -157,7 +153,7 @@
     
    
     height: 14px;
-    
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
