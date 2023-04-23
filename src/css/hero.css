@@ -9,6 +9,7 @@
   display: flex;
   flex-wrap: wrap;
   row-gap: 40px;
+  column-gap: 20px;
 }
 
 .hero-title {
@@ -52,10 +53,22 @@
   border-radius: 8px;
   background: transparent;
   color: transparent;
+  position: relative;
+}
+
+.slider-button-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  stroke: rgba(255, 255, 255, 0.5);
 }
 
 .slider-button:hover {
- border-color: var(--any-white-color-and-bg);
+  border-color: var(--any-white-color-and-bg);
+}
+
+.slider-button:hover .slider-button-icon {
+  stroke: var(--any-white-color-and-bg);
 }
 
 .slider-button:not(:last-child) {
@@ -87,10 +100,9 @@
 }
 
 .hero-img {
-  display: block;
   width: 100%;
-  margin: 0 auto;
   object-fit: cover;
+  margin: 0 auto;
 }
 
 
@@ -120,11 +132,21 @@
     width: 40px;
     height: 40px;
   }
+
+  .slider-button-icon {
+    width: 24px;
+    height: 24px;
+    top: 6px;
+    left: 6px;
+  }
 }
 
 @media screen and (max-width: 1279px) {
   .hero-title {
     margin-bottom: 20px;
+  }
+  picture {
+    width: 100%;
   }
 }
 
