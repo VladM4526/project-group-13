@@ -1,7 +1,7 @@
 body {
   font-family: var(--font-family);
-  color:var(--bg-slider-titles-and-mobile-menu);
-  background-color: var(--any-white-color-and-bg);
+  color: var(--bg-slider-titles-and-mobile-menu);
+  background-color: var(--section-primary-bg-color);
 }
 
 .section {
@@ -28,7 +28,7 @@ body {
 .container {
   /* mobile screen */
   width: 100%;
-  max-width: 335px;
+  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }

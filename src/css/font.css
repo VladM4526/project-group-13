@@ -1,12 +1,37 @@
-@font-face {
-  font-family: 'Epilogue', sans-serif;
+/* @font-face {
+  font-family: "Epilogue", sans-serif;
   src:  url(/static/Epilogue-Black.ttf) format('truetype'),
         url(/static/Epilogue-Bold.ttf) format('truetype'),
         url(/static/Epilogue-ExtraBold.ttf) format('truetype'),
         url(/static/Epilogue-ExtraLight.ttf) format('truetype'),
-        url(/static/Epilogue-Light.ttf)  format('truetype'),
-        url(/static/Epilogue-Medium.ttf)  format('truetype'),
-        url(/static/Epilogue-Regular.ttf)  format('truetype'),
-        url(/static/Epilogue-SemiBold.ttf)  format('truetype'),
-        url(/static/Epilogue-Thin.ttf)  format('truetype')
+        url(/static/Epilogue-Light.ttf) format('truetype'),
+        url(/static/Epilogue-Medium.ttf) format('truetype'),
+        url(/static/Epilogue-Regular.ttf) format('truetype'),
+        url(/static/Epilogue-SemiBold.ttf) format('truetype'),
+        url(/static/Epilogue-Thin.ttf) format('truetype')
+} */
+
+/* @font-face {
+  font-family: 'Epilogue';
+  font-weight: 600;
+  font-style: normal;
+  src: 
+    url('/static/Epilogue-Bold.ttf') format('truetype');
+  font-display: swap;
 }
+@font-face {
+  font-family: 'Epilogue';
+  font-weight: 300;
+  font-style: normal;
+  src: 
+    url('/static/Epilogue-Medium.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-style: regular;
+  src: 
+    url('/static/Epilogue-Regular.ttf') format('truetype');
+  font-display: swap;
+} */
