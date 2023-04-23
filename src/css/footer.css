@@ -3,6 +3,7 @@
    
 }
 .container {
+    padding-bottom: 20px;
     padding-top: 40px;
 }
 .footer-container {
@@ -116,7 +117,7 @@
 }
 
 .footer-copy {
-    padding-bottom: 20px;
+    
 }
 
 .copy-text {
@@ -167,6 +168,7 @@
 @media screen and (min-width: 768px) {
 .container {
     padding-top: 80px;
+    
 }
 
 .footer-container {
@@ -205,6 +207,8 @@
     padding-top: 104px;
         padding-left: 132px;
         padding-right: 132px;
+        padding-bottom: 32px;
+
 }
 .footer-container {
    margin-bottom: 174px;
@@ -213,7 +217,5 @@
 .copy-text {
     margin-bottom: 0;
 }
-.footer-copy {
-    padding-bottom: 32px;
-}
+
 }
