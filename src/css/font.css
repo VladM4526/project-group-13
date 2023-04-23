@@ -11,7 +11,7 @@
         url(/static/Epilogue-Thin.ttf) format('truetype')
 } */
 
-@font-face {
+/* @font-face {
   font-family: 'Epilogue';
   font-weight: 600;
   font-style: normal;
@@ -34,4 +34,4 @@
   src: 
     url('/static/Epilogue-Regular.ttf') format('truetype');
   font-display: swap;
-}
+} */
