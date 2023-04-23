@@ -1,7 +1,7 @@
 body {
   font-family: var(--font-family);
-  color:var(--bg-slider-titles-and-mobile-menu);
-  background-color: var(--any-white-color-and-bg);
+  color: var(--bg-slider-titles-and-mobile-menu);
+  background-color: var(--section-primary-bg-color);
 }
 
 .section {
