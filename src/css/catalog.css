@@ -1,0 +1,198 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.catalog-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+
+  margin-bottom: 40px;
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px 0;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.catalog-list-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-img-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 360px;
+  margin-bottom: 14px;
+  overflow-y: hidden;
+}
+
+.catalog-list-link:focus .catalog-overlay {
+  transform: scale(1, 1);
+}
+
+.catalog-list-link:hover .catalog-overlay {
+  transform: scale(1, 1);
+}
+
+.catalog-overlay {
+  padding: 40px 59px 40px 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--bg-slider-titles-and-mobile-menu);
+  color: #ffffff;
+  height: 100%;
+  border-radius: 8px;
+  transform: scale(0, 1);
+  transition: transform 200ms ease-in-out;
+}
+
+.overlay-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.catalog-item-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.catalog-item-desc {
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.catalog-item-detail {
+  margin-bottom: 4px;
+}
+
+.catalog-detail {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.catalog-list-name {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.catalog-list-price {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.catalog-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.catalog-btn {
+  background-color: var(--bg-slider-titles-and-mobile-menu);
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid var(--bg-slider-titles-and-mobile-menu);
+  transition: border 200ms linear;
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+  border: 1px solid #ffffff;
+}
+
+.catalog-list-item-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .catalog-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .catalog-img-wrapper {
+    width: 335px;
+  }
+
+  .catalog-overlay {
+    padding: 40px 60px 40px 40px;
+  }
+
+  .catalog-list {
+    flex-direction: row;
+    gap: 40px 32px;
+  }
+
+  .catalog-list-item {
+    width: 336px;
+  }
+
+  .catalog-btn {
+    padding: 18px 35px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+
+  .catalog-title {
+    margin-bottom: 64px;
+  }
+
+  .catalog-list {
+    margin-bottom: 80px;
+    gap: 64px 24px;
+  }
+
+  .catalog-list-item {
+    width: 276px;
+  }
+
+  .catalog-img-wrapper {
+    width: 276px;
+    height: 325px;
+  }
+
+  .catalog-overlay {
+    padding: 20px;
+  }
+
+  .catalog-list-item-mobile {
+    display: inherit;
+  }
+}
