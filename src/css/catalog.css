@@ -44,10 +44,6 @@ a {
   overflow-y: hidden;
 }
 
-.catalog-list-link:focus .catalog-overlay {
-  transform: scale(1, 1);
-}
-
 .catalog-list-link:hover .catalog-overlay {
   transform: scale(1, 1);
 }
