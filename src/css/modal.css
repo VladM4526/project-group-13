@@ -178,10 +178,7 @@
 }
 
 @media screen and (min-width:1280px) {
-    .container {
-        padding-left: 52px;
-        padding-right: 52px;
-    }
+    
 
     .modal {
         max-width: 904px;
