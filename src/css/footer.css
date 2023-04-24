@@ -2,7 +2,7 @@
     background-color : var(--bg-slider-titles-and-mobile-menu);
    
 }
-.container {
+.footer-container-mup {
     padding-bottom: 20px;
     padding-top: 40px;
 }
@@ -140,7 +140,7 @@
 
 /* ---------media--768--------------- */
 @media screen and (min-width: 768px) {
-.container {
+.footer-container-mup {
     padding-top: 80px;
     
 }
@@ -168,10 +168,9 @@
 /* -------1280----------- */
 
 @media screen and (min-width: 1280px) { 
-.container {
+.footer-container-mup {
     padding-top: 104px;
-    padding-left: 132px;
-    padding-right: 132px;
+    
     padding-bottom: 32px;
 
 }
