@@ -108,6 +108,7 @@
     border-radius: 8px;
     cursor: pointer;
     background-color: transparent;
+    padding: 18px 36px;
   }
 
   .header-btn {
